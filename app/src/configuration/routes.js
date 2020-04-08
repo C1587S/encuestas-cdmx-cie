@@ -9,6 +9,7 @@ import permissionCheck from 'sagas/auth/permissionCheckSaga';
 import activateLanguage from 'sagas/user/activateLanguage';
 import fetchUserDetails from 'sagas/user/fetchUserDetails';
 
+import fetchUserEncuestas from 'sagas/encuestas/fetchUserEncuestas';
 import { createAuthenticationRoutes } from './routes/authentication';
 
 const Home = loadable(() => import('views/Home'));
@@ -42,10 +43,13 @@ const routes = [
             },
             createAuthenticationRoutes(NotFoundRoute),
             {
-                path: '/encuestas',
-                exact: true,
-                name: 'encuestas-list',
-                component: EncuestasList,
+              path: '/encuestas',
+              exact: true,
+              name: 'parrots-list',
+              component: EncuestasList,
+              initial: [
+                fetchUserEncuestas,
+  ],
             },
             NotFoundRoute,
         ],
