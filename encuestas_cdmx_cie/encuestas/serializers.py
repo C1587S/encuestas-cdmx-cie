@@ -6,7 +6,7 @@ from encuestas.models import Encuesta
 class EncuestaSerializer(serializers.ModelSerializer):
     class Meta:
         model = Encuesta
-        fields = ('dependencia',
+        fields = ('name', 'dependencia',
           'p2_name_jefe', 'p2_dependencia_jefe',
           'p2_name_pers1', 'p2_dependencia_pers1',
           'p2_name_pers2', 'p2_dependencia_pers2',
