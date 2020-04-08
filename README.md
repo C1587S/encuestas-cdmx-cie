@@ -8,6 +8,8 @@ docker-compose up
 posteriormente, entrar al puerto `http://127.0.0.1:8000/`
 
 - En [http://127.0.0.1:8000/adminpanel/](http://127.0.0.1:8000/adminpanel/) es posible ingresar con correo y clave de admin para ver las enucestas registradas.
+- En [http://127.0.0.1:8000/encuestas/](http://127.0.0.1:8000/encuestas/) se pueden ver las encuestas llenadas al momento.
+- En [http://127.0.0.1:8000/api/encuestas/](http://127.0.0.1:8000/encuestas/) se encuentra el _endpoint_ de la API para extraer en formato JSON los datos de las encuestas contestadas.
 
 __Nota:__ Hasta el momento se generó el endpoint de la api. Es necesario ajustar app para que sea consistente el guardado de los elementos en la [encuesta](https://paola-md.github.io/encuesta-react/). 
 
