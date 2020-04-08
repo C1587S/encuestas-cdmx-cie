@@ -13,6 +13,7 @@ import { createAuthenticationRoutes } from './routes/authentication';
 
 const Home = loadable(() => import('views/Home'));
 const RestrictedView = loadable(() => import('views/RestrictedView'));
+const EncuestasList = loadable(() => import('views/EncuestasList'));
 
 const NotFoundRoute = {
     name: '404',
@@ -40,6 +41,12 @@ const routes = [
                 initial: permissionCheck,
             },
             createAuthenticationRoutes(NotFoundRoute),
+            {
+                path: '/encuestas',
+                exact: true,
+                name: 'encuestas-list',
+                component: EncuestasList,
+            },
             NotFoundRoute,
         ],
     },

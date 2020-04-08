@@ -52,6 +52,7 @@ INSTALLED_APPS = [
     # Local apps
     "accounts",
     "encuestas_cdmx_cie",
+    "encuestas",
     # Third-party apps
     "rest_framework",
     "django_filters",
