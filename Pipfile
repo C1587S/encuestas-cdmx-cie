@@ -1,0 +1,47 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+boto3 = "==1.*"
+Django = "==2.2.*"
+djangorestframework = "==3.9.*"
+django-filter = "==2.1.*"
+djangorestframework_simplejwt = "==4.3.*"
+django-crispy-forms = "==1.8.*"
+django-environ = "*"
+django-redis = "==4.11.*"
+django-cors-headers = "==3.0.*"
+"django-storages" = "==1.7.*"
+gunicorn = "==20.*"
+# If you change the docker base image to be non-alpine
+# This can be changed to psycopg2-binary to get advantage from
+# using wheels
+"psycopg2" = "==2.8.*"
+pyyaml = "==5.*"
+raven = "==6.*"
+redis = "==3.*"
+Sphinx = "*"
+sphinx_rtd_theme = "*"
+tg-utils = {version = "*", extras = ["model-hash"]}
+tg-react = "*"
+
+# Testing & quality tools
+coverage = "*"
+isort = "==4.*"
+pytest = "==5.*"
+pytest-django = "*"
+pytest-cov = "*"
+pylint-django = "*"
+# Note prospector is very picky about its dependencies,
+# avoid specifying versions for pylint/pylint-django/astroid
+# and let prospector determine which versions work together
+prospector = "==1.2.*"
+
+[dev-packages]
+django-debug-toolbar = "*"
+ipdb = "*"
+
+[requires]
+python_version = "3.8"

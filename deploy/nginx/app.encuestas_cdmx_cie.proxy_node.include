@@ -1,0 +1,2 @@
+include conf.d/app.encuestas_cdmx_cie.proxy.include;
+proxy_pass http://encuestas_cdmx_cie_node;

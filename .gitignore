@@ -1,0 +1,34 @@
+# Ignore everything in .idea
+.idea
+
+*.mo
+*.pyo
+*.pyc
+.sass-cache/
+yarn-error.log
+node_modules/
+venv/
+.cache/
+
+.data/
+
+encuestas_cdmx_cie/django.env
+encuestas_cdmx_cie/settings/local.py
+encuestas_cdmx_cie/settings/local_test.py
+encuestas_cdmx_cie/db.sqlite3
+encuestas_cdmx_cie/assets/
+
+encuestas_cdmx_cie/.cache
+encuestas_cdmx_cie/.pytest_cache
+encuestas_cdmx_cie/.coverage
+encuestas_cdmx_cie/coverage
+encuestas_cdmx_cie/cover/
+
+# Node Project files
+app/build/
+app/coverage/
+
+# Missing translations file
+**/locales/**/*.missing.json
+
+encuestas_cdmx_cie/docs/_build

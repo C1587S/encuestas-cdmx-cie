@@ -1,0 +1,15 @@
+[run]
+branch = True
+source =
+    .
+
+omit =
+    */migrations/*
+    encuestas_cdmx_cie/wsgi.py
+    manage.py
+    fabfile.py
+    settings/*
+    *test*
+
+[html]
+directory = cover
