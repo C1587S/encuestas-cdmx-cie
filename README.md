@@ -13,7 +13,7 @@ posteriormente, entrar al puerto `http://127.0.0.1:8000/`
 
 __Nota:__ Hasta el momento se generó el endpoint de la api. Es necesario ajustar app para que sea consistente el guardado de los elementos en la [encuesta](https://paola-md.github.io/encuesta-react/). 
 
-Este ejercicio está implementado en `django`, `react`, `react`, `redux`, `redux saga`  y `razzler`. Se utiliza el _template_  desarrollado por [`thorgate`](https://github.com/JoosepAlviste/parrot-mania). La documentación automática generada con `sphinx` se inserta abajo.
+Este ejercicio está implementado en `django`, `react`, `formik`, `redux`, `redux saga`  y `razzler`. Se utiliza el _template_  desarrollado por [`thorgate`](https://github.com/JoosepAlviste/parrot-mania). La documentación automática generada con `sphinx` se inserta abajo.
 
 ## Tareas pendientes
 
