@@ -3,6 +3,7 @@
 ```
 git clone https://github.com/C1587S/encuestas-cdmx-cie.git
 cd encuestas-cdmx-cie
+make setup
 docker-compose up
 ```
 posteriormente, entrar al puerto `http://127.0.0.1:8000/`
