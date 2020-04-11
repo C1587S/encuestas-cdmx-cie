@@ -22,10 +22,10 @@ class Encuesta(models.Model):
     p2_dependencia_pers2 = models.CharField(max_length=255)
     p2_name_pers3 = models.CharField(max_length=255)
     p2_dependencia_pers3 = models.CharField(max_length=255)
-    p2_dependencia_pers4 = models.CharField(max_length=255)
     p2_name_pers4 = models.CharField(max_length=255)
-    p2_dependencia_pers5 = models.CharField(max_length=255)
+    p2_dependencia_pers4 = models.CharField(max_length=255)
     p2_name_pers5 = models.CharField(max_length=255)
+    p2_dependencia_pers5 = models.CharField(max_length=255)
 
     '''
     pregunta 3
@@ -62,7 +62,7 @@ class Encuesta(models.Model):
     ¿Cuál es la máxima cantidad que estarías dispuesto a pagar la información de
     qué cara salió?
     '''
-    p6_cantidad = models.CharField(max_length=255)
+    p6_cantidad = models.IntegerField(max_length=255)
 
     '''
     pregunta 7
