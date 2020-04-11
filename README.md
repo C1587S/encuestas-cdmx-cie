@@ -14,10 +14,31 @@ Al entrar en esta dirección, aparece la siguietne ventana de loggin:
 
 ![loggin](images/login-admin.png)
 
-Se debe ingresar con el e-mail y contraseña correspondiente para acceder a la consola de administrador
+Se debe ingresar con el e-mail y contraseña correspondiente para acceder a la consola de administrador, y se debería poder ver la siguiente consola:
+
+![consola-admin](images/admin-consola.png)
+
+Si ingresamos a la sección _encuestas_, podemos crear una de estas llenandola manualmente:
+
+![consola-admin](images/admin-encuesta.png)
+
+Al terminar, se guarda la encuesta y aparece el siguiente mensaje de confirmación:
+
+![consola-admin](images/admin-encuesta-creada.png)
+
 
 - En [http://127.0.0.1:8000/encuestas/](http://127.0.0.1:8000/encuestas/) se pueden ver las encuestas llenadas al momento.
+
+Para el caso anterior en el cual llevamos hasta ahora una encuesta llenada desde la consola del administrador, tenemos:
+
+![consola-admin](images/encuestas-lista.png)
+
+
 - En [http://127.0.0.1:8000/api/encuestas/](http://127.0.0.1:8000/encuestas/) se encuentra el _endpoint_ de la API para extraer en formato JSON los datos de las encuestas contestadas.
+
+La visualización debería ser similar a la que se presenta a continuación:
+
+![consola-admin](images/api-encuesta.png)
 
 __Nota:__ Hasta el momento se generó el endpoint de la api. Es necesario ajustar app para que sea consistente el guardado de los elementos en la [encuesta](https://paola-md.github.io/encuesta-react/). 
 
