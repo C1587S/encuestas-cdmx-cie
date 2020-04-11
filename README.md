@@ -44,10 +44,13 @@ __Nota:__ Hasta el momento se generó el endpoint de la api. Es necesario ajusta
 
 Este ejercicio está implementado en `django`, `react`, `formik`, `redux`, `redux saga`  y `razzler`. Se utiliza el _template_  desarrollado por [`thorgate`](https://github.com/JoosepAlviste/parrot-mania). La documentación automática generada con `sphinx` se inserta abajo.
 
-## Tareas pendientes
+# Tareas pendientes
 
-- [ ] Hasta el momento solo administradores pueden introducir encuestas. Falta dar accesibilidad externa.
-- [ ] Hacer empalme con encuesta en formik para que almacene los datos de las encuestas con formato.
+- [ ] React + Django  (cambiar nombres de variables) [C1587S](https://github.com/C1587S)
+- [ ] Ver como hostearlo: [paola-md](https://github.com/paola-md/)
+- [ ] Hacer que respuestas se suban a base de datos: [C1587S](https://github.com/C1587S)
+- [ ] Cargar dropdown de base de datos: [paola-md](https://github.com/paola-md/)
+- [ ] Asegurarse de que externos puedan ingresar encuestas: [C1587S](https://github.com/C1587S)
 
 # Encuestas CDMX CIE - Documentación de Sphinx
 
