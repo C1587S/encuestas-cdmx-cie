@@ -12,7 +12,7 @@ posteriormente, entrar al puerto `http://127.0.0.1:8000/`
 
 Al entrar en esta dirección, aparece la siguietne ventana de loggin:
 
-
+![loggin](images/login-admin.png)
 
 Se debe ingresar con el e-mail y contraseña correspondiente para acceder a la consola de administrador
 
