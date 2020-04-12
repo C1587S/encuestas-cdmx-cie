@@ -1,3 +1,3 @@
-export default function fetchUserEncuestas() {
-  console.log('Fetching some surveys')
-  }
+export default function* fetchUserEncuestas() {
+  yield console.log('Fetching some surveys');
+}

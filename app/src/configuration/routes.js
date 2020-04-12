@@ -45,7 +45,7 @@ const routes = [
             {
               path: '/encuestas',
               exact: true,
-              name: 'parrots-list',
+              name: 'encuestas-list',
               component: EncuestasList,
               initial: [
                 fetchUserEncuestas,
