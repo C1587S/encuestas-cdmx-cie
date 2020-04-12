@@ -10,7 +10,7 @@ class EncuestaSerializer(serializers.ModelSerializer):
           'p2_name_jefe', 'p2_dependencia_jefe',
           'p2_name_pers1', 'p2_dependencia_pers1',
           'p2_name_pers2', 'p2_dependencia_pers2',
-          'p2_name_pers1', 'p2_dependencia_pers3',
+          'p2_name_pers3', 'p2_dependencia_pers3',
           'p2_name_pers4', 'p2_dependencia_pers4',
           'p2_name_pers5', 'p2_dependencia_pers5',
           'p3_salario_jefe',
