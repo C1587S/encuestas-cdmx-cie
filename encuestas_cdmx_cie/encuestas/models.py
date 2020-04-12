@@ -62,7 +62,7 @@ class Encuesta(models.Model):
     ¿Cuál es la máxima cantidad que estarías dispuesto a pagar la información de
     qué cara salió?
     '''
-    p6_cantidad = models.IntegerField(max_length=255)
+    p6_cantidad = models.IntegerField()
 
     '''
     pregunta 7
