@@ -6,7 +6,7 @@ name = "pypi"
 [packages]
 boto3 = "==1.*"
 Django = "==2.2.*"
-djangorestframework = "==3.9.*"
+djangorestframework = "==3.11.*"
 django-filter = "==2.1.*"
 djangorestframework_simplejwt = "==4.3.*"
 django-crispy-forms = "==1.8.*"
