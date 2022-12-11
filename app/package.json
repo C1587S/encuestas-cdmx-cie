@@ -81,7 +81,7 @@
     "node-sass": "4.13.1",
     "normalizr": "3.4.1",
     "prop-types": "15.7.2",
-    "qs": "6.5.2",
+    "qs": "6.5.3",
     "razzle": "3.0.0",
     "razzle-plugin-eslint": "3.0.0",
     "razzle-plugin-long-term-caching": "1.0.0-alpha.30",
